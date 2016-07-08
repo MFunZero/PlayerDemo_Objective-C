@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "SuzeeHomeCollectionViewController.h"
+#import "SuzeeCollectionViewLayout.h"
+#import "VideoCollectionViewController.h"
 
-@interface ViewController ()
+
+@interface ViewController ()<SuzeeCollectionViewLayoutDelegate>
 
 @end
 
@@ -17,6 +21,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+- (void)viewDidAppear:(BOOL)animated {
+    SuzeeCollectionViewLayout *layoutNew = [[SuzeeCollectionViewLayout alloc] init] ;
+    
+//    SuzeeHomeCollectionViewController * vc = [[SuzeeHomeCollectionViewController alloc] initWithCollectionViewLayout:layoutNew];
+    VideoCollectionViewController * vc = [[VideoCollectionViewController alloc] initWithCollectionViewLayout:layoutNew];
+
+    
+    [self presentViewController:vc animated:YES completion:^{
+        NSLog(@"present");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

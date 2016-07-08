@@ -1,0 +1,6 @@
+target 'PlayerDemo_Objective-C' do
+pod 'ZFPlayer'
+pod 'MJExtension'
+pod 'AFNetworking'
+pod 'SDWebImage'
+end

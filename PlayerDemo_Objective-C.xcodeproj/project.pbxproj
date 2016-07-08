@@ -7,15 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3D88261D2DFEA800E05A4E /* SingleItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D88251D2DFEA800E05A4E /* SingleItemModel.m */; };
+		2C3D88291D2DFEF100E05A4E /* SingleAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D88281D2DFEF100E05A4E /* SingleAlbumModel.m */; };
+		2C3D882D1D2E165C00E05A4E /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D882B1D2E165C00E05A4E /* ImageCollectionViewCell.m */; };
+		2C3D882E1D2E165C00E05A4E /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D882C1D2E165C00E05A4E /* ImageCollectionViewCell.xib */; };
+		2C3D88381D2E4AB100E05A4E /* VideoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D88371D2E4AB100E05A4E /* VideoCollectionViewController.m */; };
+		2C3D883B1D2E4E0800E05A4E /* VideoItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D883A1D2E4E0800E05A4E /* VideoItemModel.m */; };
+		2C3D883E1D2E50F100E05A4E /* EndsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D883D1D2E50F100E05A4E /* EndsItem.m */; };
+		2C3D88411D2E516100E05A4E /* ListItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D88401D2E516100E05A4E /* ListItemModel.m */; };
+		2C3D88441D2E523100E05A4E /* BannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D88431D2E523100E05A4E /* BannerScrollView.m */; };
+		2C3D88481D2E9ED700E05A4E /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D88461D2E9ED700E05A4E /* VideoDetailViewController.m */; };
+		2C3D88491D2E9ED700E05A4E /* VideoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C3D88471D2E9ED700E05A4E /* VideoDetailViewController.xib */; };
 		2C62EB4F1D2B5C7100C6DAB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EB4E1D2B5C7100C6DAB7 /* main.m */; };
 		2C62EB521D2B5C7100C6DAB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EB511D2B5C7100C6DAB7 /* AppDelegate.m */; };
 		2C62EB551D2B5C7100C6DAB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EB541D2B5C7100C6DAB7 /* ViewController.m */; };
 		2C62EB581D2B5C7100C6DAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C62EB561D2B5C7100C6DAB7 /* Main.storyboard */; };
 		2C62EB5A1D2B5C7100C6DAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C62EB591D2B5C7100C6DAB7 /* Assets.xcassets */; };
 		2C62EB5D1D2B5C7100C6DAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C62EB5B1D2B5C7100C6DAB7 /* LaunchScreen.storyboard */; };
+		2C62EB6C1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EB6B1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.m */; };
+		2C62EB6F1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EB6E1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.m */; };
+		2C62EB761D2BF6B200C6DAB7 /* URLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62EB751D2BF6B200C6DAB7 /* URLItem.m */; };
+		37BC3D281B86ABB3B76B03B8 /* libPods-PlayerDemo_Objective-C.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E82EBFF289A5C44D21020D /* libPods-PlayerDemo_Objective-C.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19E82EBFF289A5C44D21020D /* libPods-PlayerDemo_Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayerDemo_Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3D88241D2DFEA800E05A4E /* SingleItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleItemModel.h; sourceTree = "<group>"; };
+		2C3D88251D2DFEA800E05A4E /* SingleItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleItemModel.m; sourceTree = "<group>"; };
+		2C3D88271D2DFEF100E05A4E /* SingleAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleAlbumModel.h; sourceTree = "<group>"; };
+		2C3D88281D2DFEF100E05A4E /* SingleAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleAlbumModel.m; sourceTree = "<group>"; };
+		2C3D882A1D2E165C00E05A4E /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		2C3D882B1D2E165C00E05A4E /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		2C3D882C1D2E165C00E05A4E /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		2C3D88361D2E4AB100E05A4E /* VideoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCollectionViewController.h; sourceTree = "<group>"; };
+		2C3D88371D2E4AB100E05A4E /* VideoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCollectionViewController.m; sourceTree = "<group>"; };
+		2C3D88391D2E4E0800E05A4E /* VideoItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItemModel.h; sourceTree = "<group>"; };
+		2C3D883A1D2E4E0800E05A4E /* VideoItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItemModel.m; sourceTree = "<group>"; };
+		2C3D883C1D2E50F100E05A4E /* EndsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndsItem.h; sourceTree = "<group>"; };
+		2C3D883D1D2E50F100E05A4E /* EndsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndsItem.m; sourceTree = "<group>"; };
+		2C3D883F1D2E516100E05A4E /* ListItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListItemModel.h; sourceTree = "<group>"; };
+		2C3D88401D2E516100E05A4E /* ListItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItemModel.m; sourceTree = "<group>"; };
+		2C3D88421D2E523100E05A4E /* BannerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerScrollView.h; sourceTree = "<group>"; };
+		2C3D88431D2E523100E05A4E /* BannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerScrollView.m; sourceTree = "<group>"; };
+		2C3D88451D2E9ED700E05A4E /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		2C3D88461D2E9ED700E05A4E /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		2C3D88471D2E9ED700E05A4E /* VideoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoDetailViewController.xib; sourceTree = "<group>"; };
 		2C62EB4A1D2B5C7100C6DAB7 /* PlayerDemo_Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayerDemo_Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C62EB4E1D2B5C7100C6DAB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C62EB501D2B5C7100C6DAB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +62,15 @@
 		2C62EB591D2B5C7100C6DAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C62EB5C1D2B5C7100C6DAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C62EB5E1D2B5C7100C6DAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C62EB6A1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuzeeCollectionViewLayout.h; sourceTree = "<group>"; };
+		2C62EB6B1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuzeeCollectionViewLayout.m; sourceTree = "<group>"; };
+		2C62EB6D1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuzeeHomeCollectionViewController.h; sourceTree = "<group>"; };
+		2C62EB6E1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuzeeHomeCollectionViewController.m; sourceTree = "<group>"; };
+		2C62EB711D2B848500C6DAB7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C62EB741D2BF6B200C6DAB7 /* URLItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLItem.h; sourceTree = "<group>"; };
+		2C62EB751D2BF6B200C6DAB7 /* URLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLItem.m; sourceTree = "<group>"; };
+		CAABC6A9CC943D907D34E0DF /* Pods-PlayerDemo_Objective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerDemo_Objective-C.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayerDemo_Objective-C/Pods-PlayerDemo_Objective-C.release.xcconfig"; sourceTree = "<group>"; };
+		F45EC916396CC2634EA686F9 /* Pods-PlayerDemo_Objective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayerDemo_Objective-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayerDemo_Objective-C/Pods-PlayerDemo_Objective-C.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +78,72 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37BC3D281B86ABB3B76B03B8 /* libPods-PlayerDemo_Objective-C.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2856D6C08EAF9785BD5A7AC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E82EBFF289A5C44D21020D /* libPods-PlayerDemo_Objective-C.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C3D88321D2E4A7D00E05A4E /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D88351D2E4A9000E05A4E /* Model */,
+				2C3D88341D2E4A8A00E05A4E /* View */,
+				2C3D88331D2E4A8400E05A4E /* Controller */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		2C3D88331D2E4A8400E05A4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D88361D2E4AB100E05A4E /* VideoCollectionViewController.h */,
+				2C3D88371D2E4AB100E05A4E /* VideoCollectionViewController.m */,
+				2C3D88451D2E9ED700E05A4E /* VideoDetailViewController.h */,
+				2C3D88461D2E9ED700E05A4E /* VideoDetailViewController.m */,
+				2C3D88471D2E9ED700E05A4E /* VideoDetailViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2C3D88341D2E4A8A00E05A4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D88421D2E523100E05A4E /* BannerScrollView.h */,
+				2C3D88431D2E523100E05A4E /* BannerScrollView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2C3D88351D2E4A9000E05A4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D88391D2E4E0800E05A4E /* VideoItemModel.h */,
+				2C3D883A1D2E4E0800E05A4E /* VideoItemModel.m */,
+				2C3D883C1D2E50F100E05A4E /* EndsItem.h */,
+				2C3D883D1D2E50F100E05A4E /* EndsItem.m */,
+				2C3D883F1D2E516100E05A4E /* ListItemModel.h */,
+				2C3D88401D2E516100E05A4E /* ListItemModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		2C62EB411D2B5C7100C6DAB7 = {
 			isa = PBXGroup;
 			children = (
 				2C62EB4C1D2B5C7100C6DAB7 /* PlayerDemo_Objective-C */,
 				2C62EB4B1D2B5C7100C6DAB7 /* Products */,
+				4C26E4B7A629DCAD026DDA79 /* Pods */,
+				2856D6C08EAF9785BD5A7AC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +158,9 @@
 		2C62EB4C1D2B5C7100C6DAB7 /* PlayerDemo_Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				2C62EB701D2B845100C6DAB7 /* Global */,
+				2C62EB691D2B64D300C6DAB7 /* Widget */,
+				2C62EB641D2B645C00C6DAB7 /* Classes */,
 				2C62EB501D2B5C7100C6DAB7 /* AppDelegate.h */,
 				2C62EB511D2B5C7100C6DAB7 /* AppDelegate.m */,
 				2C62EB531D2B5C7100C6DAB7 /* ViewController.h */,
@@ -79,6 +182,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2C62EB641D2B645C00C6DAB7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D88321D2E4A7D00E05A4E /* Video */,
+				2C62EB681D2B648D00C6DAB7 /* SuzeeHome */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2C62EB651D2B647400C6DAB7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EB6D1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.h */,
+				2C62EB6E1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2C62EB661D2B648000C6DAB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EB741D2BF6B200C6DAB7 /* URLItem.h */,
+				2C62EB751D2BF6B200C6DAB7 /* URLItem.m */,
+				2C3D88241D2DFEA800E05A4E /* SingleItemModel.h */,
+				2C3D88251D2DFEA800E05A4E /* SingleItemModel.m */,
+				2C3D88271D2DFEF100E05A4E /* SingleAlbumModel.h */,
+				2C3D88281D2DFEF100E05A4E /* SingleAlbumModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2C62EB671D2B648600C6DAB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C3D882A1D2E165C00E05A4E /* ImageCollectionViewCell.h */,
+				2C3D882B1D2E165C00E05A4E /* ImageCollectionViewCell.m */,
+				2C3D882C1D2E165C00E05A4E /* ImageCollectionViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2C62EB681D2B648D00C6DAB7 /* SuzeeHome */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EB671D2B648600C6DAB7 /* View */,
+				2C62EB661D2B648000C6DAB7 /* Model */,
+				2C62EB651D2B647400C6DAB7 /* Controller */,
+			);
+			name = SuzeeHome;
+			sourceTree = "<group>";
+		};
+		2C62EB691D2B64D300C6DAB7 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EB6A1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.h */,
+				2C62EB6B1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.m */,
+			);
+			name = Widget;
+			sourceTree = "<group>";
+		};
+		2C62EB701D2B845100C6DAB7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				2C62EB711D2B848500C6DAB7 /* PrefixHeader.pch */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		4C26E4B7A629DCAD026DDA79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F45EC916396CC2634EA686F9 /* Pods-PlayerDemo_Objective-C.debug.xcconfig */,
+				CAABC6A9CC943D907D34E0DF /* Pods-PlayerDemo_Objective-C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C62EB611D2B5C7100C6DAB7 /* Build configuration list for PBXNativeTarget "PlayerDemo_Objective-C" */;
 			buildPhases = (
+				68168CCC67F21E833B96CD63 /* 📦 Check Pods Manifest.lock */,
 				2C62EB461D2B5C7100C6DAB7 /* Sources */,
 				2C62EB471D2B5C7100C6DAB7 /* Frameworks */,
 				2C62EB481D2B5C7100C6DAB7 /* Resources */,
+				4D4554C1DA7B7EFA3052C71F /* 📦 Embed Pods Frameworks */,
+				B39E09F1559B7B5B8627F7E1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,20 +322,82 @@
 			files = (
 				2C62EB5D1D2B5C7100C6DAB7 /* LaunchScreen.storyboard in Resources */,
 				2C62EB5A1D2B5C7100C6DAB7 /* Assets.xcassets in Resources */,
+				2C3D88491D2E9ED700E05A4E /* VideoDetailViewController.xib in Resources */,
+				2C3D882E1D2E165C00E05A4E /* ImageCollectionViewCell.xib in Resources */,
 				2C62EB581D2B5C7100C6DAB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D4554C1DA7B7EFA3052C71F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayerDemo_Objective-C/Pods-PlayerDemo_Objective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68168CCC67F21E833B96CD63 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B39E09F1559B7B5B8627F7E1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayerDemo_Objective-C/Pods-PlayerDemo_Objective-C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C62EB461D2B5C7100C6DAB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C3D883B1D2E4E0800E05A4E /* VideoItemModel.m in Sources */,
+				2C62EB6F1D2B6F5C00C6DAB7 /* SuzeeHomeCollectionViewController.m in Sources */,
+				2C3D88291D2DFEF100E05A4E /* SingleAlbumModel.m in Sources */,
+				2C3D88481D2E9ED700E05A4E /* VideoDetailViewController.m in Sources */,
+				2C3D88381D2E4AB100E05A4E /* VideoCollectionViewController.m in Sources */,
+				2C3D88411D2E516100E05A4E /* ListItemModel.m in Sources */,
 				2C62EB551D2B5C7100C6DAB7 /* ViewController.m in Sources */,
+				2C62EB761D2BF6B200C6DAB7 /* URLItem.m in Sources */,
+				2C3D88441D2E523100E05A4E /* BannerScrollView.m in Sources */,
+				2C3D883E1D2E50F100E05A4E /* EndsItem.m in Sources */,
+				2C3D882D1D2E165C00E05A4E /* ImageCollectionViewCell.m in Sources */,
 				2C62EB521D2B5C7100C6DAB7 /* AppDelegate.m in Sources */,
 				2C62EB4F1D2B5C7100C6DAB7 /* main.m in Sources */,
+				2C3D88261D2DFEA800E05A4E /* SingleItemModel.m in Sources */,
+				2C62EB6C1D2B653700C6DAB7 /* SuzeeCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +507,10 @@
 		};
 		2C62EB621D2B5C7100C6DAB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45EC916396CC2634EA686F9 /* Pods-PlayerDemo_Objective-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/fanzz/Documents/GCDWorkspace/PlayerDemo_Objective-C/PlayerDemo_Objective-C/PrefixHeader.pch";
 				INFOPLIST_FILE = "PlayerDemo_Objective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.PlayerDemo-Objective-C";
@@ -273,8 +520,10 @@
 		};
 		2C62EB631D2B5C7100C6DAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAABC6A9CC943D907D34E0DF /* Pods-PlayerDemo_Objective-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/fanzz/Documents/GCDWorkspace/PlayerDemo_Objective-C/PlayerDemo_Objective-C/PrefixHeader.pch";
 				INFOPLIST_FILE = "PlayerDemo_Objective-C/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.PlayerDemo-Objective-C";
@@ -301,6 +550,7 @@
 				2C62EB631D2B5C7100C6DAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

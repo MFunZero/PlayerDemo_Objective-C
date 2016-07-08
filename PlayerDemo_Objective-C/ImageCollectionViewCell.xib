@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="180"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UzK-nT-7Qt">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="180"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="UzK-nT-7Qt" secondAttribute="trailing" id="G0a-76-m3X"/>
+                <constraint firstAttribute="bottom" secondItem="UzK-nT-7Qt" secondAttribute="bottom" id="IUb-yK-BcD"/>
+                <constraint firstItem="UzK-nT-7Qt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MUu-Vz-Vk3"/>
+                <constraint firstItem="UzK-nT-7Qt" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="Nt0-Pg-GoL"/>
+                <constraint firstItem="UzK-nT-7Qt" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="PMq-ku-aLB"/>
+                <constraint firstItem="UzK-nT-7Qt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Z3c-eh-jfG"/>
+            </constraints>
+            <size key="customSize" width="200" height="180"/>
+            <connections>
+                <outlet property="imageVIew" destination="UzK-nT-7Qt" id="axq-0d-71A"/>
+            </connections>
+            <point key="canvasLocation" x="352" y="304"/>
+        </collectionViewCell>
+    </objects>
+</document>
